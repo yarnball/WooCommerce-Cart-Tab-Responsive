@@ -173,6 +173,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 			global $woocommerce;
 			?>
 			<a href="" title="" class="cart-parent ">
+				<i class="flaticon-shopping131"></i>
 				<?php
 					echo '<span class="contents">' . sprintf( _n( '%d item', '%d items', intval( $woocommerce->cart->get_cart_contents_count() ), 'woocommerce-cart-tab' ), intval( $woocommerce->cart->get_cart_contents_count() ) ) . '</span>';
 				?>

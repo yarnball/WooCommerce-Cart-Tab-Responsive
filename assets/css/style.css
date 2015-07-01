@@ -8,11 +8,15 @@
 
 .cart-tab a.cart-parent {
     top:-1.1em!important;
-    padding:0.218em!important;
-}
+    padding:0.218em!important
 }
 
+.cart-tab.right a.cart-parent {
+    left:-2.6em!important;
+    width:3.283em!important;
+}
 
+}
 
 .cart-tab.light a.cart-parent,.cart-tab.light .widget {
     box-shadow:0 2px 1em 0 rgba(0,0,0,0.2);
@@ -113,7 +117,7 @@ margin-left:0.3em;
 }
 
 .cart-tab.right {
-    right:-22em;
+    right:-18em;
     -webkit-transition:right ease .5s;
     -moz-transition:right ease .5s;
     -o-transition:right ease .5s;
@@ -121,8 +125,8 @@ margin-left:0.3em;
 }
 
 .cart-tab.right a.cart-parent {
-    left:-8.702328em;
-    width:8.402328em;
+    left:-5.59em;
+    width:6.2328em;
     -webkit-transition:left ease .5s;
     -moz-transition:left ease .5s;
     -o-transition:left ease .5s;
